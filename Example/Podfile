@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BlsKit_Tests' do
+  pod 'BlsKit', :path => '../'
+  
+  
+end
