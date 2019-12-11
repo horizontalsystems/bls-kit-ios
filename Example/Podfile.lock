@@ -1,0 +1,16 @@
+PODS:
+  - BlsKit.swift (1.0)
+
+DEPENDENCIES:
+  - BlsKit.swift (from `../`)
+
+EXTERNAL SOURCES:
+  BlsKit.swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlsKit.swift: 533e494e0068f9ad2cf211a31fe9279f688af123
+
+PODFILE CHECKSUM: 3f8204cc6f95cfb1a097e48d28dfdff2d2fc1805
+
+COCOAPODS: 1.8.4

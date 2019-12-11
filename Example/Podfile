@@ -1,6 +1,6 @@
-use_frameworks!
+platform :ios, '11'
+use_modular_headers!
+
 target 'BlsKit_Tests' do
-  pod 'BlsKit', :path => '../'
-  
-  
+  pod 'BlsKit.swift', :path => '../'
 end
