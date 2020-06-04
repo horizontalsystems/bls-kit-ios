@@ -24,7 +24,7 @@
 #include "relic_conf.h"
 
 #if defined GMP && ARITH == GMP
-#include <gmp.h>
+#include "gmp.h"
 #endif
 
 #include "relic.h"

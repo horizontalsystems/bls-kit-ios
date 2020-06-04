@@ -131,6 +131,7 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HC4MCAXJ66;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -304,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08E59421A8B565F5FCCA09FF /* Pods-BlsKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HC4MCAXJ66;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -325,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C2364302FDAE371C24ED6E1 /* Pods-BlsKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HC4MCAXJ66;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -23,7 +23,7 @@ BlsKit includes crypto verification function that can be used in pure Swift. It 
   s.requires_arc = true
 
   s.preserve_paths = ['BlsKit/Libraries']
-  s.vendored_libraries  = ['BlsKit/Libraries/lib/libbls_ios.a', 'BlsKit/Libraries/lib/libgmp_ios.a', 'BlsKit/Libraries/lib/librelic_ios.a']
+  s.vendored_libraries  = ['BlsKit/Libraries/lib/libbls.a']
 
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '"${PODS_TARGET_SRCROOT}/BlsKit/Libraries/include" "${PODS_TARGET_SRCROOT}/BlsKit/Libraries/include/relic"',

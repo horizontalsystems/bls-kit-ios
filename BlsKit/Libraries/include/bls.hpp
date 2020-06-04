@@ -17,12 +17,13 @@
 
 #include <vector>
 #include <map>
-#include <string.h>
+#include <string>
+#include <stdexcept>
 
 #include "relic_conf.h"
 
 #if defined GMP && ARITH == GMP
-#include <gmp.h>
+#include "gmp.h"
 #endif
 
 #include "publickey.hpp"
@@ -30,7 +31,7 @@
 #include "signature.hpp"
 #include "extendedprivatekey.hpp"
 #include "aggregationinfo.hpp"
-
+#include "threshold.hpp"
 
 #include "relic.h"
 #include "relic_test.h"
@@ -54,7 +55,7 @@ class BLS {
 
     // Used for secure aggregation
     static void HashPubKeys(
-            bn_t* output,
+            relic_bn_t* output,
             size_t numOutputs,
             std::vector<uint8_t*> const &serPubKeys,
             std::vector<size_t> const &sortedIndices);
@@ -62,6 +63,7 @@ class BLS {
     static PublicKey DHKeyExchange(const PrivateKey& privKey, const PublicKey& pubKey);
 
     static void CheckRelicErrors();
+    static void CheckRelicErrorsInvalidArgument();
 };
 } // end namespace bls
 

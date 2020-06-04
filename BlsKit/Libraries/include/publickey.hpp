@@ -21,7 +21,7 @@
 #include "relic_conf.h"
 
 #if defined GMP && ARITH == GMP
-#include <gmp.h>
+#include "gmp.h"
 #endif
 
 #include "util.hpp"
@@ -31,6 +31,7 @@ class PublicKey {
  friend class InsecureSignature;
  friend class Signature;
  friend class ExtendedPublicKey;
+ friend class Threshold;
  friend class BLS;
  public:
     static const size_t PUBLIC_KEY_SIZE = 48;
@@ -66,7 +67,7 @@ class PublicKey {
     PublicKey();
 
     // Exponentiate public key with n
-    PublicKey Exp(const bn_t n) const;
+    PublicKey Exp(const relic_bn_t n) const;
 
     static void CompressPoint(uint8_t* result, const g1_t* point);
 
