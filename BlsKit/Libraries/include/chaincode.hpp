@@ -21,7 +21,7 @@
 #include "relic_conf.h"
 
 #if defined GMP && ARITH == GMP
-#include <gmp.h>
+#include "gmp.h"
 #endif
 
 
@@ -50,7 +50,7 @@ class ChainCode {
     // Prevent direct construction, use static constructor
     ChainCode() {}
 
-    bn_t chainCode;
+    relic_bn_t chainCode;
 };
 } // end namespace bls
 

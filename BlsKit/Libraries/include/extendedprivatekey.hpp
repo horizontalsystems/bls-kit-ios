@@ -20,7 +20,7 @@
 #include <vector>
 
 #if defined GMP && ARITH == GMP
-#include <gmp.h>
+#include "gmp.h"
 #endif
 
 #include "privatekey.hpp"
