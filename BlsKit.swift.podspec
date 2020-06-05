@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BlsKit.swift'
   s.module_name      = 'BlsKit'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = 'BLS verification crypto library for Swift'
 
   s.description      = <<-DESC

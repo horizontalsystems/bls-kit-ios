@@ -1,5 +1,5 @@
 PODS:
-  - BlsKit.swift (1.0)
+  - BlsKit.swift (1.0.1)
 
 DEPENDENCIES:
   - BlsKit.swift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BlsKit.swift: f952cf380d3804ad62a4c7170628a2164b23b5b7
+  BlsKit.swift: e73fb332ed6a577b0f34a0da30aa5ec6c09bee55
 
 PODFILE CHECKSUM: 3f8204cc6f95cfb1a097e48d28dfdff2d2fc1805
 
